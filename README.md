@@ -1,6 +1,6 @@
 # SimpleCrypto
 
-CREATED BY TYLER CRIMANDO
+## CREATED BY TYLER CRIMANDO
 
 Free for personal use
 
