@@ -1,10 +1,9 @@
 #include <iostream>
 #include <regex>
-using namespace std;
 
-char plainNciph(string key, char let, bool tocorp){
+char plainNciph(std::string key, char let, bool tocorp){
         if (key.length() != 26){
-            cout<< "key is not long enough";
+            std::cout<< "key is not long enough";
             return '\0';
         }
         if (tocorp == true){
@@ -15,8 +14,8 @@ char plainNciph(string key, char let, bool tocorp){
         }
 }
 
-string strplainNciph(string key, string corp, bool tocorp){
-    string ret;
+std::string strplainNciph(std::string key, std::string corp, bool tocorp){
+    std::string ret;
     if (key.length() != 26){
         return NULL;
     }
@@ -30,7 +29,7 @@ string strplainNciph(string key, string corp, bool tocorp){
 }
 
 int main(){
-    cout << strplainNciph("qwertyuioplkjhgfdsazxcvbnm", "bigman", true);
-    cout << strplainNciph("qwertyuioplkjhgfdsazxcvbnm", "WOUJQH", false);
+    std::cout << strplainNciph("qwertyuioplkjhgfdsazxcvbnm", "bigman", true);
+    std::cout << strplainNciph("qwertyuioplkjhgfdsazxcvbnm", "WOUJQH", false);
     return 5;
 }

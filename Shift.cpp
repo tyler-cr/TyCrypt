@@ -1,5 +1,4 @@
 #include <iostream>
-using namespace std;
 
 void shiftplaintocipher(char &plain, int shift){
     plain = toupper(char((tolower(plain)+shift)));
@@ -11,7 +10,7 @@ void shiftciphertoplain(char &cipher, int shift){
     if (int(cipher) < 97) cipher = tolower(cipher+26);
 }
 
-void entireshift(string& s, int shift, bool poc){
+void entireshift(std::string& s, int shift, bool poc){
     for(size_t i = 0; i < s.length();i++){
         if(s[i] == char(39)) continue;
         if(isalpha(s[i])){
