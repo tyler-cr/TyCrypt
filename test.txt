@@ -1,9 +1,0 @@
-﻿Hello there!
-
-This is a test text file. This is for testing the cryptography and making sure
-that
-stuff
-works
-!!!
-
-Feel free to change it as you please.
