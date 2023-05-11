@@ -2,6 +2,10 @@
 
 This branch will begin the implementation of adding 'std' and removing 'using namespace' throughout the code.
 
+5/10/22
+
+- Added new small file with two different strip functions for strings. Will implement into other cryptography functions soon.
+
 5/7/22  
 
 - Added comments explaining each function
