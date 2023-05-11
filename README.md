@@ -5,6 +5,7 @@ This branch will begin the implementation of adding 'std' and removing 'using na
 5/10/22
 
 - Added new small file with two different strip functions for strings. Will implement into other cryptography functions soon.
+- Added simple substitution cipher generator.
 
 5/7/22  
 
