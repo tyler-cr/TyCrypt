@@ -3,6 +3,13 @@ SUBSTITUTION CIPHER
 by: Tyler Crimando
 */
 #include <iostream>
+#include <iostream>
+#include <fstream>
+#include <string>
+#include <vector>
+#include <numeric>
+#include <random>
+#include <algorithm>
 
 /*
 Given a string representing a substitution cipher key, returns a new character given character 'let', either changing it to
@@ -35,4 +42,18 @@ std::string strplainNciph(std::string key, std::string corp, bool tocorp){
         ret += plainNciph(key, corp[i], tocorp);
     }
     return ret;
+}
+
+//simple string generator for testing substitution ciphers.
+std::string generaterandomsubscipher(){
+    srand(time(0));
+    static std::vector<int> ascii{97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,
+            117,118,119,120,121,122};
+    std::string retstr;
+    shuffle(ascii.begin(),ascii.end(), std::default_random_engine(rand()));
+    for (size_t i = 0; i < ascii.size();i++){
+        retstr+= char(ascii[i]);
+    }
+    return retstr;
+
 }

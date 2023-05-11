@@ -133,15 +133,3 @@ return retstr;
 /*
 Some testing for Nihilist cipher. If you plan on using, above functions, please remember to remove this!
 */
-int main(){
-    srand(time(NULL));
-    std::string test = "ayoololtest";
-    tdvchar cipher = generaterandomcipher(6);
-    std::cout<<printtdvector(cipher);
-    std::cout<<test;
-    test = stringplaintociph(cipher, test);
-    std::cout<<test;
-    test = stringciphtoplain(cipher, test);
-    std::cout<<test;
-    return 0;
-}
