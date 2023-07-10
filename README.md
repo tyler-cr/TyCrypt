@@ -2,12 +2,12 @@
 
 This branch will begin the implementation of adding 'std' and removing 'using namespace' throughout the code.
 
-5/10/22
+5/10/23
 
 - Added new small file with two different strip functions for strings. Will implement into other cryptography functions soon.
 - Added simple substitution cipher generator.
 
-5/7/22  
+5/7/23  
 
 - Added comments explaining each function
 - NOTE: Ciphers and encrypted messages are typically formatted without spaces, punction, etc. While some of the functions
