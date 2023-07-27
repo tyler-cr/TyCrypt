@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Tyler/Desktop/simpleCryptography",
-      "program": "c:/Users/Tyler/Desktop/simpleCryptography/build/Debug/outDebug",
+      "cwd": "c:/Users/Tyler/Desktop/TyCrypt",
+      "program": "c:/Users/Tyler/Desktop/TyCrypt/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
